@@ -1,5 +1,7 @@
 # Smart Builder Popups and Sticky Bars App
 
+https://user-images.githubusercontent.com/20562946/160899977-47b6af50-21ce-4db0-bd41-a676ad12cd7b.mp4
+
 ## Developing apps locally using the Smart Builder
 
 1. Run `npm i` from the root directory.
