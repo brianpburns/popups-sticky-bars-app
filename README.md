@@ -1,4 +1,4 @@
-# sb-sample-extension
+# Smart Builder Popups and Sticky Bars App
 
 ## Developing apps locally using the Smart Builder
 
