@@ -9,7 +9,7 @@
   "categories": ["script"],
   "files": [],
   "settings": {
-    "id": {
+    "embedCode": {
       "type": "string",
       "label": "Enter the embed code from the overview of your popup or sticky bar",
       "required": true,
