@@ -2,6 +2,8 @@ import React from 'react';
 import { component, Schema } from 'ub-shared';
 import { ComponentProps } from 'unbounce-smart-builder-sdk-types';
 
+import { isValidScript } from './utils';
+
 export const Component = component({
   componentTypeId: 'popupsStickyBars',
   displayName: 'Popups/Sticky Bars embed script',
@@ -10,7 +12,8 @@ export const Component = component({
     embedCode: Schema.string().noControls(),
   }),
   Component({ data: { embedCode }, mode }: ComponentProps<{ embedCode: string }>) {
-    if (mode.type !== 'publish' || !embedCode) {
+    const validEmbedCode = isValidScript(embedCode);
+    if (mode.type !== 'publish' || !embedCode || !validEmbedCode) {
       return null;
     }
 
