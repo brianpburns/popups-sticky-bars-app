@@ -1,10 +1,10 @@
 {
-  "name": "sb-sample-extension",
-  "description": "Extension Sample",
+  "name": "popups-sticky-bars-app",
+  "description": "Unbounce Smart Builder app for embedding popups and sticky bars",
   "version": "0.0.0",
   "main": "dist/index.js",
   "keywords": [],
-  "author": "Unbounce - Content Foundations",
+  "author": "Brian Burns",
   "license": "UNLICENSED",
   "browserslist": [
     "last 2 versions"
