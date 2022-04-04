@@ -13,6 +13,7 @@ export const Component = component({
   }),
   Component({ data: { embedCode }, mode }: ComponentProps<{ embedCode: string }>) {
     const validEmbedCode = isValidScript(embedCode);
+
     if (mode.type !== 'publish' || !embedCode || !validEmbedCode) {
       return null;
     }

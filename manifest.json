@@ -16,5 +16,5 @@
       "placeholder": "<script src='https://12345678b4488af2f8c8bf2f54287.js.ubembed.com' async></script>"
     }
   },
-  "externalScripts": ["http://localhost:8082/index.js"]
+  "externalScripts": ["http://localhost:8081/index.js"]
 }
