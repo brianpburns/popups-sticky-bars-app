@@ -1,8 +1,15 @@
 import { isValidScript } from './utils';
 
 describe('isValidScript', () => {
-  test('returns true for valid script', () => {
+  test('returns true for valid production script', () => {
     const validScript = "<script src='https://12345678b4488af2f8c8bf2f54287.js.ubembed.com' async></script>";
+
+    expect(isValidScript(validScript)).toBeTruthy();
+  });
+
+  test('returns true for valid integration script', () => {
+    const validScript =
+      "<script src='https://12345678b4488af2f8c8bf2f54287.js-integration.ubembed.com' async></script>";
 
     expect(isValidScript(validScript)).toBeTruthy();
   });
