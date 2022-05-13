@@ -5,8 +5,7 @@ export default {
   description: 'Embed popups and sticky bars.',
   type: 'utility',
   isBeta: true,
-  moreInfoUrl:
-    'https://documentation.unbounce.com/hc/en-us/articles/360020389312-Installing-Your-Popup-Sticky-Bar-on-an-Unbounce-Landing-Page',
+  moreInfoUrl: 'https://documentation.unbounce.com/hc/en-us/articles/5555117972628',
   iconUrl: 'https://app-assets-unbounce-com.s3.amazonaws.com/content-smart-builder-apps/popups-sticky-bars/icon.svg',
   categories: ['utility'],
   files: [],
