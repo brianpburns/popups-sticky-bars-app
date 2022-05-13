@@ -8,7 +8,7 @@ export default {
   moreInfoUrl:
     'https://documentation.unbounce.com/hc/en-us/articles/360020389312-Installing-Your-Popup-Sticky-Bar-on-an-Unbounce-Landing-Page',
   iconUrl: 'https://app-assets-unbounce-com.s3.amazonaws.com/content-smart-builder-apps/popups-sticky-bars/icon.svg',
-  categories: ['script'],
+  categories: ['utility'],
   files: [],
   settings: {
     embedCode: {
