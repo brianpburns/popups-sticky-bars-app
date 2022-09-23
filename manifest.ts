@@ -1,14 +1,16 @@
-export default {
+import { Manifest } from 'unbounce-smart-builder-sdk-types';
+
+const manifest: Manifest = {
   appId: '@burns/popupsStickyBars',
   version: '0.1',
   name: 'Popups and Sticky Bars',
   description: 'Embed popups and sticky bars.',
   type: 'utility',
   isBeta: true,
+  moreInfoUrl: 'https://documentation.unbounce.com/hc/en-us/articles/5555117972628',
   iconUrl:
     'https://app-assets-unbounce-com.s3.amazonaws.com/content-smart-builder-apps/app-reviews/popups-sticky-bars/icon.svg',
-  moreInfoUrl: 'https://documentation.unbounce.com/hc/en-us/articles/5555117972628',
-  categories: ['script'],
+  categories: ['utility'],
   files: [],
   settings: {
     embedCode: {
@@ -22,3 +24,5 @@ export default {
     'https://app-assets-unbounce-com.s3.amazonaws.com/content-smart-builder-apps/app-reviews/popups-sticky-bars/index.js',
   ],
 };
+
+export default manifest;
